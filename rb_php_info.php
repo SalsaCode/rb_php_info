@@ -9,6 +9,6 @@
 add_shortcode("rb_php_info", "rb_php_info");
 function rb_php_info() {
     ob_start();
-    php_info();    
+    phpinfo();    
     return ob_get_clean();
 }
